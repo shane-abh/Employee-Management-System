@@ -1,0 +1,8 @@
+{
+  "extends": "airbnb-base",
+  "plugins": ["react"],
+  "parserOptions": {
+      "sourceType": "commonjs"
+  },
+  "ignorePatterns": ["server.js","public/"]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "assignment2ui",
+  "version": "1.0.0",
+  "description": "Assignment 2 - EMS - UI",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon -w server.js server.js",
+    "compile": "webpack --mode production",
+    "watch": "webpack --watch",
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bishal Dhakal",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.6",
+    "nodemon": "^3.0.3",
+    "react-bootstrap": "^2.10.2",
+    "react-router-dom": "^4",
+    "react-toastify": "^10.0.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.24.3",
+    "@babel/preset-react": "^7.23.3",
+    "babel-loader": "^9.1.3",
+    "css-loader": "^7.0.0",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1",
+    "style-loader": "^3.3.4",
+    "webpack-cli": "^5.1.4"
+  }
+}
